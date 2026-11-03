@@ -1,0 +1,464 @@
+[
+  {
+    "repository": "daws-88s/.github",
+    "url": "https://github.com/daws-88s/.github",
+    "folder": "organisation-github",
+    "commit": "a9eb8ae23e21c34e376c9e0cdaa9d8fa338ece9a",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/ansible",
+    "url": "https://github.com/daws-88s/ansible",
+    "folder": "ansible",
+    "commit": "fc94d06ce936d141218d15b2ca76c95cd59a02b1",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/ansible-roboshop-roles",
+    "url": "https://github.com/daws-88s/ansible-roboshop-roles",
+    "folder": "ansible-roboshop-roles",
+    "commit": "1547391ab3a8aed06096ced0bcf38a4651b1118b",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/ansible-roboshop-roles-tf",
+    "url": "https://github.com/daws-88s/ansible-roboshop-roles-tf",
+    "folder": "ansible-roboshop-roles-tf",
+    "commit": "2d42b7354b3b82784ea0aee6c5cb395bbc9f5464",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/argocd",
+    "url": "https://github.com/daws-88s/argocd",
+    "folder": "argocd",
+    "commit": "7ebb467894482de7d93d306b3ac09a5726f2e0f8",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/assignments",
+    "url": "https://github.com/daws-88s/assignments",
+    "folder": "assignments",
+    "commit": "777e61cfec34d89f4653436f3b99784390262639",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/catalogue",
+    "url": "https://github.com/daws-88s/catalogue",
+    "folder": "catalogue",
+    "commit": "cd4f872fb6b5f82f30ed0d22f0a32c5d245501d0",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/catalogue-tests",
+    "url": "https://github.com/daws-88s/catalogue-tests",
+    "folder": "catalogue-tests",
+    "commit": "47fa7223f29defdfee42a37697e443f6f6489d9d",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/catalogue-unit-tests",
+    "url": "https://github.com/daws-88s/catalogue-unit-tests",
+    "folder": "catalogue-unit-tests",
+    "commit": "7a915b59c5680ddae86885bf2dc00073ed315cbd",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/concepts",
+    "url": "https://github.com/daws-88s/concepts",
+    "folder": "concepts",
+    "commit": "a5f1f3abe9958b7fa3758afdc9f4e067a4131c73",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/diagrams",
+    "url": "https://github.com/daws-88s/diagrams",
+    "folder": "diagrams",
+    "commit": "1c5613d6eb035179d78c23fc64afc6e6feb63f07",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/dockerfiles",
+    "url": "https://github.com/daws-88s/dockerfiles",
+    "folder": "dockerfiles",
+    "commit": "fb82ef658240e41bcd2c1dc6f5d6201ce7505785",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/dosa-shop",
+    "url": "https://github.com/daws-88s/dosa-shop",
+    "folder": "dosa-shop",
+    "commit": "eccd68e4944f1f8ebaf351c2bea13a1d40f1f14a",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/ec2-module-test",
+    "url": "https://github.com/daws-88s/ec2-module-test",
+    "folder": "ec2-module-test",
+    "commit": "20f63efc883eb1dd9c9f20897dc5ba7b295659d0",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/eksctl",
+    "url": "https://github.com/daws-88s/eksctl",
+    "folder": "eksctl",
+    "commit": "13f9e8de3949312ab19768ae6b6bfbf1ef3e3d30",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/elk",
+    "url": "https://github.com/daws-88s/elk",
+    "folder": "elk",
+    "commit": "62735503ac1786e1f933ad7202a2f89c45d3f37d",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/expense-documentation",
+    "url": "https://github.com/daws-88s/expense-documentation",
+    "folder": "expense-documentation",
+    "commit": "b0fb50bd174f0a822109569aaffe24ea0efe627f",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/github-actions",
+    "url": "https://github.com/daws-88s/github-actions",
+    "folder": "github-actions",
+    "commit": "d5b7f25d5380a61ac0f8f930230307a5d0f18b0b",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/helm",
+    "url": "https://github.com/daws-88s/helm",
+    "folder": "helm",
+    "commit": "9b3158dc85b58f92d60c66e68867764d4ab66d02",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/jenkins",
+    "url": "https://github.com/daws-88s/jenkins",
+    "folder": "jenkins",
+    "commit": "325510a346929c1e2c7a8680465581117a78a1bc",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/jenkins-shared-library",
+    "url": "https://github.com/daws-88s/jenkins-shared-library",
+    "folder": "jenkins-shared-library",
+    "commit": "06079b06940f113b2c26d4f2358285f5935e77d5",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-ha",
+    "url": "https://github.com/daws-88s/k8-ha",
+    "folder": "k8-ha",
+    "commit": "89d94ded75f638e59e473b9c4e0523acf9978792",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-ingress",
+    "url": "https://github.com/daws-88s/k8-ingress",
+    "folder": "k8-ingress",
+    "commit": "25f94236312ebc6ec47543d5154db78cfd31b06e",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-network",
+    "url": "https://github.com/daws-88s/k8-network",
+    "folder": "k8-network",
+    "commit": "78b36f72105e92b1f0456ab367c6c6dc0efa10a1",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-rbac",
+    "url": "https://github.com/daws-88s/k8-rbac",
+    "folder": "k8-rbac",
+    "commit": "f8fdcb7b4bc26b5d968c53b177d82ee8e8a62cfa",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-resources",
+    "url": "https://github.com/daws-88s/k8-resources",
+    "folder": "k8-resources",
+    "commit": "3ccd940e800223099ceec805ad10c014d68c600b",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-roboshop",
+    "url": "https://github.com/daws-88s/k8-roboshop",
+    "folder": "k8-roboshop",
+    "commit": "50e899662428dbc82243c20f139765633121f418",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-roboshop-volumes",
+    "url": "https://github.com/daws-88s/k8-roboshop-volumes",
+    "folder": "k8-roboshop-volumes",
+    "commit": "57863235927aa8359683ea318ba972998c448a81",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8-selectors",
+    "url": "https://github.com/daws-88s/k8-selectors",
+    "folder": "k8-selectors",
+    "commit": "0b09caf35f0d7dc17d310f6f85f8bdaa6011ab7e",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8s-blue-green",
+    "url": "https://github.com/daws-88s/k8s-blue-green",
+    "folder": "k8s-blue-green",
+    "commit": "ba799460439a2e3da5b1781dadf1f40778138099",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8s-ingress",
+    "url": "https://github.com/daws-88s/k8s-ingress",
+    "folder": "k8s-ingress",
+    "commit": "0377b06dd3432ceb9194ae81ff23bd0f859a62e1",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/k8s-init",
+    "url": "https://github.com/daws-88s/k8s-init",
+    "folder": "k8s-init",
+    "commit": "77a5a4e582dc05317626c324a57bb1d3b1f52da4",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/notes",
+    "url": "https://github.com/daws-88s/notes",
+    "folder": "notes",
+    "commit": "ded5fcb91c18e696b438f0ff078f31d8ade2bbd4",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/prometheus",
+    "url": "https://github.com/daws-88s/prometheus",
+    "folder": "prometheus",
+    "commit": "1bc1457c5c1e4dba51c658c219c437ce4474492c",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/python-basics",
+    "url": "https://github.com/daws-88s/python-basics",
+    "folder": "python-basics",
+    "commit": "3e9a41e43ca01ccfc1263e1568dca621803ac8e9",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/python-devops-usecases",
+    "url": "https://github.com/daws-88s/python-devops-usecases",
+    "folder": "python-devops-usecases",
+    "commit": "e15af083930452889aa6130a0200482c90d77991",
+    "branch": "master",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/roboshop-ansible",
+    "url": "https://github.com/daws-88s/roboshop-ansible",
+    "folder": "roboshop-ansible",
+    "commit": "8d1cbdff765f82a24007d59d4e4286169b80aa66",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/roboshop-docker",
+    "url": "https://github.com/daws-88s/roboshop-docker",
+    "folder": "roboshop-docker",
+    "commit": "cb52e773d1017307322660e3ac1bdf3354d1cc6d",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/roboshop-documentation",
+    "url": "https://github.com/daws-88s/roboshop-documentation",
+    "folder": "roboshop-documentation",
+    "commit": "a8ec24e4ad3678e67c7fe725562adba2cc90fae5",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/roboshop-helm",
+    "url": "https://github.com/daws-88s/roboshop-helm",
+    "folder": "roboshop-helm",
+    "commit": "288244ca1dda5fb37cf17494e10ab876d8617aa6",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/roboshop-infra-dev",
+    "url": "https://github.com/daws-88s/roboshop-infra-dev",
+    "folder": "roboshop-infra-dev",
+    "commit": "86b5cf34d4747cec526aefba62c041c60bca8143",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/roboshop-infra-eks",
+    "url": "https://github.com/daws-88s/roboshop-infra-eks",
+    "folder": "roboshop-infra-eks",
+    "commit": "4257037ee7345ebf519f6a8ceead967dd02840c5",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/shared-library-test",
+    "url": "https://github.com/daws-88s/shared-library-test",
+    "folder": "shared-library-test",
+    "commit": "16581167334fc42d5d38756b7f3cd22e16a15e6a",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/shell-practice",
+    "url": "https://github.com/daws-88s/shell-practice",
+    "folder": "shell-practice",
+    "commit": "17718a7f42ad945e29607c3f55b54f7a67c186fa",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/shell-roboshop",
+    "url": "https://github.com/daws-88s/shell-roboshop",
+    "folder": "shell-roboshop",
+    "commit": "c048777fbe5b26acc575a1468983de17eb981248",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/shell-roboshop-common",
+    "url": "https://github.com/daws-88s/shell-roboshop-common",
+    "folder": "shell-roboshop-common",
+    "commit": "90f317b05608bd34d31a8e289956a4254bf36de1",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/shipping",
+    "url": "https://github.com/daws-88s/shipping",
+    "folder": "shipping",
+    "commit": "66197108753033c5464da5b780c22a86dedf403b",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform",
+    "url": "https://github.com/daws-88s/terraform",
+    "folder": "terraform",
+    "commit": "5b8f120ac8ce6240654202ac54931ba0361cd3db",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-aws-eks",
+    "url": "https://github.com/daws-88s/terraform-aws-eks",
+    "folder": "terraform-aws-eks",
+    "commit": "d54ef4369cbc83a7a1da378b59897e572f7fd622",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-aws-instance",
+    "url": "https://github.com/daws-88s/terraform-aws-instance",
+    "folder": "terraform-aws-instance",
+    "commit": "639d18e38860c50db80e25a9f358f50f6fb5f321",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-aws-jenkins",
+    "url": "https://github.com/daws-88s/terraform-aws-jenkins",
+    "folder": "terraform-aws-jenkins",
+    "status": "empty"
+  },
+  {
+    "repository": "daws-88s/terraform-aws-sg",
+    "url": "https://github.com/daws-88s/terraform-aws-sg",
+    "folder": "terraform-aws-sg",
+    "commit": "a54b1b00494c2408cc95a4ff80167014a2d027da",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-aws-vpc",
+    "url": "https://github.com/daws-88s/terraform-aws-vpc",
+    "folder": "terraform-aws-vpc",
+    "commit": "e07e5b34f8462de5355708da6dcb4a2330e0ccaa",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-aws-workstation",
+    "url": "https://github.com/daws-88s/terraform-aws-workstation",
+    "folder": "terraform-aws-workstation",
+    "commit": "045f427abad7e4225ccbf3dd1f21b94688c0a5f8",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-multienv",
+    "url": "https://github.com/daws-88s/terraform-multienv",
+    "folder": "terraform-multienv",
+    "commit": "cf978c91c484fb75eab5eac3293c40234ea98cbf",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/terraform-roboshop-component",
+    "url": "https://github.com/daws-88s/terraform-roboshop-component",
+    "folder": "terraform-roboshop-component",
+    "commit": "76c44b85ab5017d2f068562a6d03d99bfc9f4016",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/vpc-module-test",
+    "url": "https://github.com/daws-88s/vpc-module-test",
+    "folder": "vpc-module-test",
+    "commit": "269021b25102f79fdcfa2c9f86ce6a94b2197773",
+    "branch": "main",
+    "status": "copied"
+  },
+  {
+    "repository": "daws-88s/workflows",
+    "url": "https://github.com/daws-88s/workflows",
+    "folder": "workflows",
+    "commit": "ab36dab53fb5f28ad01e6ce13e124695ff6c730f",
+    "branch": "main",
+    "status": "copied"
+  }
+]
