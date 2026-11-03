@@ -1,0 +1,73 @@
+name: Import daws-88s files
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/import-daws.yml'
+permissions:
+  contents: write
+concurrency:
+  group: import-daws
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Copy default-branch snapshots
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 <<'PY'
+          import json, pathlib, shutil, subprocess, tempfile
+          root = pathlib.Path.cwd()
+          repos = json.loads(subprocess.check_output([
+              "gh", "repo", "list", "daws-88s", "--limit", "1000",
+              "--json", "name,nameWithOwner,defaultBranchRef,isEmpty,url"
+          ]))
+          manifest = []
+          for repo in sorted(repos, key=lambda r: r["name"]):
+              name = repo["name"]
+              destination = root / name
+              if destination.exists():
+                  raise RuntimeError("Destination already exists: " + name)
+              record = {"repository": repo["nameWithOwner"], "url": repo["url"]}
+              if repo["isEmpty"]:
+                  destination.mkdir()
+                  (destination / "EMPTY_SOURCE.md").write_text(
+                      "Source repository has no commits: " + repo["url"] + "\n")
+                  record["status"] = "empty"
+              else:
+                  with tempfile.TemporaryDirectory() as temporary:
+                      checkout = pathlib.Path(temporary) / "source"
+                      subprocess.run(["git", "clone", "--depth", "1", "--",
+                          repo["url"] + ".git", str(checkout)], check=True)
+                      record["commit"] = subprocess.check_output(
+                          ["git", "-C", str(checkout), "rev-parse", "HEAD"], text=True).strip()
+                      record["branch"] = repo["defaultBranchRef"]["name"]
+                      submodules = subprocess.check_output(
+                          ["git", "-C", str(checkout), "ls-files", "--stage"], text=True)
+                      if any(line.startswith("160000 ") for line in submodules.splitlines()):
+                          raise RuntimeError("Submodule requires explicit handling: " + name)
+                      shutil.copytree(checkout, destination, symlinks=True,
+                          ignore=shutil.ignore_patterns(".git"))
+                      record["status"] = "copied"
+              manifest.append(record)
+              print(name + ": " + record["status"], flush=True)
+          (root / "IMPORT_SOURCES.json").write_text(json.dumps(manifest, indent=2) + "\n")
+          (root / "README.md").write_text(
+              "# DevOps learning collection\n\n"
+              "Default-branch file snapshots from https://github.com/daws-88s.\n"
+              "Each source repository is stored in its own folder. Original license "
+              "and attribution files are retained. See IMPORT_SOURCES.json for source "
+              "URLs and commit IDs. Git history is not imported.\n\n"
+              "Empty source repositories contain an EMPTY_SOURCE.md placeholder.\n")
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add --all
+          git commit -m "Copy daws-88s default-branch files into separate folders"
+          git push origin HEAD:main
