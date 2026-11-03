@@ -31,10 +31,11 @@ jobs:
           manifest = []
           for repo in sorted(repos, key=lambda r: r["name"]):
               name = repo["name"]
-              destination = root / name
+              folder = "organisation-github" if name == ".github" else name
+              destination = root / folder
               if destination.exists():
                   raise RuntimeError("Destination already exists: " + name)
-              record = {"repository": repo["nameWithOwner"], "url": repo["url"]}
+              record = {"repository": repo["nameWithOwner"], "url": repo["url"], "folder": folder}
               if repo["isEmpty"]:
                   destination.mkdir()
                   (destination / "EMPTY_SOURCE.md").write_text(
